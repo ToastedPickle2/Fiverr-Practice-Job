@@ -416,13 +416,13 @@ html::-webkit-scrollbar {
 }
 
 .image-1 {
-    background: url(newsimage1.jpg) center no-repeat;
+    background: url(Images/newsimage1.jpg) center no-repeat;
     background-size: cover;
     background-position: 50% 50%; 
 }
 
 .image-2 {
-    background: url(plants.jpg) center no-repeat;
+    background: url(Images/plants.jpg) center no-repeat;
     background-size: cover;
     background-position: 50% 50%; 
 }
