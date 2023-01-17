@@ -850,6 +850,10 @@ html::-webkit-scrollbar {
     .nav-menu-logo {
         margin-right: -1rem;
     }
+    
+    .nav-links-right-2 {
+        margin-bottom: 6rem;
+    }
 
     .video-title-text {
         font-size: 5rem;
