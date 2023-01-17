@@ -140,6 +140,8 @@ html::-webkit-scrollbar {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;   
     display: flex;
+    overflow-y: hidden;
+    padding-block-end: 1rem;
 }
 
 
@@ -271,6 +273,7 @@ html::-webkit-scrollbar {
     /* background-color: purple; */
     width: 100%;
     max-width: 90%;
+    min-height: 100%;
     top: 0;
     bottom: 0;
     position: absolute;
@@ -309,7 +312,7 @@ html::-webkit-scrollbar {
     /* background-color: green; */
     text-align: center;
     justify-content: flex-end;
-    padding-block-end: 6rem;
+    padding-block-end: 11rem;
 }
 
 .video-title-text-bottom {
@@ -337,6 +340,7 @@ html::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-block-end: 2rem;
 }
 
 .more-work-text {
@@ -719,6 +723,14 @@ html::-webkit-scrollbar {
         font-size: 7rem;
         line-height: 7rem;
     }
+
+    .footer-links-text {
+        font-size: 3.3rem;
+    }
+
+    .follow-us-text {
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -825,6 +837,7 @@ html::-webkit-scrollbar {
     .footer-tagline-text {
         font-size: 5rem;
         line-height: 5rem;
+        padding: 0 5rem;
     }
 }
 
