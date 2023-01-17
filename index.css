@@ -860,6 +860,10 @@ html::-webkit-scrollbar {
         font-size: 5rem;
         line-height: 4.8rem;
     }
+    
+    .checkbox:checked ~ section, footer {
+        display: none;
+    }
 }
 
 /* End ofResponsiveness */
